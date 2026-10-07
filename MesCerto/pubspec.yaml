@@ -1,0 +1,37 @@
+name: MesCerto
+description: Aplicativo de finanças
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'   # ✅ Compatível com o FlutLab
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Conexão com o banco de dados (Supabase / PostgreSQL)
+  supabase_flutter: ^2.8.0
+
+  # Navegação — versão compatível com Dart 3.8.x
+  go_router: ^17.0.0
+
+  # Formatação — versão compatível
+  intl: ^0.19.0
+
+  # Fontes
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/icon.png
